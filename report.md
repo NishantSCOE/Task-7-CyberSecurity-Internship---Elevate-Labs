@@ -14,7 +14,7 @@ I began by navigating to the Chrome extension manager (`chrome://extensions`) to
 #### **"Before" State of Browser Extensions**
 At the start of the audit, the following extensions were installed. This list served as the baseline for the security review.
 
-* [Insert your "Before" screenshot here - like Screenshot (218).png]
+ ![List of extensions before audit](./screenshots/01_extensions-before-audit.png)
 
 #### **Permission Analysis of Key Extensions**
 Several extensions required high-level permissions, which were analyzed for legitimacy:
@@ -37,7 +37,7 @@ Based on the analysis, the following extensions were removed to improve security
 #### **"After" State of Browser Extensions**
 After removing the identified extensions, the browser is more secure and less cluttered.
 
-* **(IMPORTANT: Please remove the extensions listed above and take a final screenshot of your updated extension list to insert here)**
+ ![Final list of extensions after audit](./screenshots/02_extensions-after-audit.png)
 
 ### **3. Research: How Malicious Extensions Cause Harm**
 Browser extensions can pose significant security risks because they operate with a high level of privilege within the browser. Malicious extensions can:
@@ -51,5 +51,6 @@ Browser extensions can pose significant security risks because they operate with
 This task highlighted the importance of regularly managing browser extensions to maintain security and privacy. Key best practices for safely installing and managing extensions include:
 
 * **Install from Official Stores Only:** Only use the official Chrome Web Store or other trusted browser marketplaces.
-* **Review Permissions Carefully:** Before installing, always check what permissions an extension is requesting[cite: 10]. Be suspicious of permissions that seem excessive for the extension's function.
+* **Review Permissions Carefully:** Before installing, always check what permissions an extension is requesting. Be suspicious of permissions that seem excessive for the extension's function.
+
 * **Audit Regularly:** Periodically review your installed extensions and remove any you no longer use or recognize.
